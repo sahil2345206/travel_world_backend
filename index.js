@@ -19,8 +19,7 @@ const port = process.env.PORT || 4000;
 
 // CORS options
 const corsOptions = {
-    origin: 'http://localhost:3000', // or your client-side address
-    credentials: true
+    origin: 'https://travel-world-frontend-git-master-sahil2345206s-projects.vercel.app/',
 };
 
 // Database connection
