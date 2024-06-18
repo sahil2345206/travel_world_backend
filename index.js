@@ -38,7 +38,7 @@ mongoose.connect(DB, {
 
 // Middleware
 app.use(express.json());
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(cookieParser());
 
 // Routes
